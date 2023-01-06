@@ -13,7 +13,7 @@ variable "account_profile" {
 variable "region" {
   type    = string
   description = "Region that we wish to deploy into."
-  default="us-east-1"
+  default="us-east-2"
 }
 
  
@@ -27,7 +27,7 @@ variable "EnvironmentType" {
 variable "ResourceOwner" {
   type        = string
   description = "Name of the resource owner"
-  default = "vijith"
+  default = "prashant"
 }
 
 ##=============================================================================================
