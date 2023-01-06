@@ -1,8 +1,9 @@
 terraform {
 
         backend "s3" {
+	profile = "lambdauser"
         bucket = "p-2026-bucket"
-        key = "concourse/terraform.tfstate"
+        key = "terraform.tfstate"
         region =  "us-east-2"
         }
 }
